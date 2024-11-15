@@ -1,0 +1,89 @@
+
+/*
+SECCIÓN
+    PIE DE PÁGINA
+*/
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+    color: #0008;
+}
+
+.footer-column p{
+    padding-top: 10px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-column h3 {
+    margin-bottom: 20px;
+    color: #0009;
+    user-select: none;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 15px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #0007;
+}
+
+.footer-column a:hover{
+    text-decoration: underline;
+}
+
+.footer-column .social-media a:hover{
+    text-decoration: none;
+}
+
+.fa-brands{
+    padding-right: 8px;
+    transition: .2s;
+}
+
+.lk-fa:hover{
+    color: #0b86ee;
+}
+
+.lk-ig:hover{
+    color: rgb(214, 112, 254);
+}
+
+.lk-tw:hover{
+    color: #888;
+}
+
+.lk-yt:hover{
+    color: rgb(242, 61, 61);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    color: #0007;
+    user-select: none;
+}

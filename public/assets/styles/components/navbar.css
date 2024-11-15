@@ -1,0 +1,138 @@
+/* 
+    BARRA DE NAVEGACIÓN 
+*/
+
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.navbar-logo,
+.navbar-button {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-link-logo{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo-img {
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+}
+
+.navbar-title {
+    font-weight: 900;
+    font-size: 25px;
+    color: #1a584b;
+    margin: 10px;
+}
+
+.navbar-links {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-links li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #888;
+    padding: 25px 40px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 600;
+}
+
+.services-link{
+    background-color: #1a584b;
+    color: #fff;
+}
+
+/* Estilo del icono del menú desplegable */
+.navbar-link .fa-caret-down {
+    margin-left: 5px;
+}
+
+/* Submenú de Servicios */
+.navbar-sublinks {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-sublinks li {
+    display: block;
+    margin: 20px 0;
+}
+
+.navbar-sublink {
+    color: #888;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+.navbar-sublink:hover {
+    color: #1a584b;
+}
+
+/* Mostrar el submenú al hacer hover */
+.navbar-links li:hover .navbar-sublinks {
+    display: block;
+}
+
+/* Efecto hover en enlaces de navegación */
+.navbar-link:hover,
+.navbar-link.active {
+    background-color: #1a584b;
+    color: #fff;
+}
+
+/* Estilo del botón "Únete" */
+.navbar-join-button {
+    background-color: transparent;
+    border: 2px solid #1a584b;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.navbar-join-button:hover {
+    background-color: #1a584b;
+    transform: scale(1.1);
+    color: #fff;
+}

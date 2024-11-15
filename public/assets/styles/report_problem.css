@@ -1,0 +1,178 @@
+/* 
+ESTILOS GENERALES 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*
+SECCIÓN
+    REPORTAR PROBLEMA
+*/
+
+.report-problem-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+    overflow: hidden;
+}
+
+.report-problem-container {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0px 200px;
+}
+
+.report-form, .report-description {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.report-form {
+    border-right: 1px solid #e0e0e0;
+}
+
+.report-form h2, .report-description h3 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.report-form h2{
+    padding-bottom: 20px;
+}
+
+.report-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444;
+    padding-bottom: 15px;
+}
+
+.report-form input[type="email"],
+.report-form textarea,
+.report-form input[type="file"] {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.report-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.file-input {
+    display: none; /* Ocultamos el input de tipo file */
+}
+
+.custom-file-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-button:hover {
+    background-color: #0056b3;
+}
+
+.custom-file-button:focus {
+    outline: none;
+}
+
+.file-name {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.report-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1a584b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+}
+
+.custom-file-button{
+    margin-top: 0px !important;
+    background-color: #ccc !important;
+    color: #444 !important;
+}
+
+.custom-file-button i{
+    margin-right: 10px;
+}
+
+.custom-file-button:hover{
+    background-color: #aaa !important;
+}
+
+.report-form button:hover {
+    background-color: #0e3f34;
+}
+
+.report-description h3 {
+    color: #333;
+    font-size: 25px;
+}
+
+.report-description p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.report-description svg{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}

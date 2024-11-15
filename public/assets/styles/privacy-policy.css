@@ -1,0 +1,140 @@
+/* 
+ESTILOS GENERALES 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*
+SECCIÓN
+    TÉRMINOS Y CONDICIONES
+*/
+
+.privacy-policy-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.privacy-policy-title-section{
+    color: #222;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.privacy-policy-container{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 0 300px;
+}
+
+/* TABLA DE CONTENIDO */
+
+.index-topics-container{
+    margin-right: 100px;
+    width: 20%;
+    position: sticky;
+    top: 120px;
+    z-index: 10;
+    height: 100%;
+}
+
+.index-topics-title-container{
+    color: #444;
+    font-size: 25px;
+    margin-bottom: 30px
+}
+
+.index-topics-list{
+    list-style: none;
+}
+
+.index-topics-list li{
+    margin-bottom: 30px;
+}
+
+.index-topics-list li a{
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.index-topics-list li a:hover{
+    color: #1a584b;
+    text-decoration: underline;
+}
+
+.index-topics-list i{
+    margin-right: 10px;
+}
+
+/* CONTENIDO */
+
+.privacy-policy-content-container{
+    width: 80%;
+}
+
+.privacy-policy-information{
+    color: #444;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.privacy-policy-subtitle{
+    color: #444;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    scroll-margin-top: 90px;
+
+}
+
+.privacy-policy-content{
+    color: #444;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.privacy-policy-list{
+    list-style: none;
+}
+
+.privacy-policy-list li{
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.privacy-policy-list strong{
+    color: #444;
+    font-weight: 700;
+}
+
+.privacy-policy-content a{
+    color: #1a584b;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.privacy-policy-content a:hover{
+    text-decoration: underline;
+}
