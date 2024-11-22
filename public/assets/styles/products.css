@@ -59,7 +59,7 @@ SECCIÓN
     cursor: pointer;
     margin: 20px 20px 0px 0px;
     font-size: 15px;
-    width: 25%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,4 +290,23 @@ SECCIÓN
     color: #4447;
     font-weight: 500;
     margin: 30px;    
+}
+
+@media (max-width: 1024px) {
+
+    .products-section {
+        padding-top: 100px;
+    }
+
+    .start-link {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: auto 20px;
+    }
+
+    .frames-app-mobile-section {
+        height: auto;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: 100vh 50vh 100vh;
+    }
 }

@@ -23,9 +23,15 @@
 <body>
     <!-- Barra de navegación principal -->
     <nav class="navbar">
+
+        <!-- Botón de menú hamburguesa para móvil -->
+        <div class="navbar-mobile-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
         <!-- Contenedor de logo y título -->
         <div class="navbar-logo">
-            <a href="../../../index.html" class="navbar-link-logo">
+            <a href="../../index.html" class="navbar-link-logo">
                 <img src="../assets/images/logos/logo-app.png" alt="Logo EcoCrop" class="navbar-logo-img">
                 <h1 class="navbar-title">EcoCrop</h1>
             </a>
@@ -33,12 +39,12 @@
 
         <!-- Enlaces de navegación principales -->
         <ul class="navbar-links">
-            <li><a href="../../../index.html" class="navbar-link">Inicio</a></li>
-            <li><a href="../../../index.html#how-does-it-work" class="navbar-link">Cómo funciona</a></li>
+            <li><a href="../../index.html" class="navbar-link">Inicio</a></li>
+            <li><a href="../../index.html#how-does-it-work" class="navbar-link">Cómo funciona</a></li>
             
             <!-- Menú desplegable para la sección de Servicios -->
             <li class="navbar-item-dropdown">
-                <a href="../../../index.html#services" class="navbar-link services-link">Servicios<i class="fa-solid fa-caret-down"></i></a>
+                <a href="../../index.html#services" class="navbar-link services-link">Servicios<i class="fa-solid fa-caret-down"></i></a>
                 <ul class="navbar-sublinks">
                     <li><a href="products.html" class="navbar-sublink">Productos</a></li>
                     <li><a href="chat.html" class="navbar-sublink">Chat</a></li>
@@ -103,10 +109,10 @@
             <div class="footer-column">
                 <h3>Secciones</h3>
                 <ul>
-                    <li><a href="../../../index.html">Inicio</a></li>
-                    <li><a href="../../../index.html#how-does-it-work">Cómo funciona</a></li>
-                    <li><a href="../../../index.html#services">Servicios</a></li>
-                    <li><a href="../../../index.html#about">Sobre nosotros</a></li>
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li><a href="../../index.html#how-does-it-work">Cómo funciona</a></li>
+                    <li><a href="../../index.html#services">Servicios</a></li>
+                    <li><a href="../../index.html#about">Sobre nosotros</a></li>
                 </ul>
             </div>
             <!-- 3ª Columna -->
@@ -152,6 +158,7 @@
             document.getElementById('file-name').textContent = fileName ? 'Archivo seleccionado: ' + fileName : '';
         });
     </script>
+    <script src="../assets/scripts/nav.js" defer></script>
     
 </body>
 

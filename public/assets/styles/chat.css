@@ -128,9 +128,9 @@ SECCIÓN
     border-radius: 2px;
     color: #444;
     cursor: pointer;
-    margin: 20px 20px 0px 0px;
+    margin: 30px 20px 0px 0px;
     font-size: 15px;
-    width: 25%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -396,4 +396,30 @@ SECCIÓN
 
 .input input::placeholder {
     color: #999;
+}
+
+@media (max-width: 1200px) {
+    .chat-section{
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chat-container{
+        width: 90%;
+        height: auto;
+        padding: 50px;
+    }
+
+    .content-container{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+
+    .start-link{
+        padding: 15px 30px;
+    }
+
 }

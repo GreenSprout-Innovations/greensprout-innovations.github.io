@@ -24,6 +24,11 @@
 <body>
     <!-- Barra de navegación principal -->
     <nav class="navbar">
+        <!-- Botón de menú hamburguesa para móvil -->
+        <div class="navbar-mobile-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
         <!-- Contenedor de logo y título -->
         <div class="navbar-logo">
             <a href="index.html" class="navbar-link-logo">
@@ -34,22 +39,24 @@
 
         <!-- Enlaces de navegación principales -->
         <ul class="navbar-links">
-            <li><a href="#home" class="navbar-link">Inicio</a></li>
-            <li><a href="#how-does-it-work" class="navbar-link">Cómo funciona</a></li>
-            
-            <!-- Menú desplegable para la sección de Servicios -->
-            <li class="navbar-item-dropdown">
-                <a href="#services" class="navbar-link">Servicios<i class="fa-solid fa-caret-down"></i></a>
-                <ul class="navbar-sublinks">
-                    <li><a href="public/sections/products.html" class="navbar-sublink">Productos</a></li>
-                    <li><a href="public/sections/chat.html" class="navbar-sublink">Chat</a></li>
-                    <li><a href="public/sections/climate.html" class="navbar-sublink">Clima</a></li>
-                    <li><a href="public/sections/news.html" class="navbar-sublink">Noticias</a></li>
-                </ul>
-            </li>
-            
-            <li><a href="#about" class="navbar-link">Sobre nosotros</a></li>
-            <li><a href="#contact" class="navbar-link">Contáctanos</a></li>
+        <li><a href="#home" class="navbar-link">Inicio</a></li>
+        <li><a href="#how-does-it-work" class="navbar-link">Cómo funciona</a></li>
+        
+        <!-- Menú desplegable para la sección de Servicios -->
+        <li class="navbar-item-dropdown">
+            <a href="#services" class="navbar-link">
+                Servicios<i class="fa-solid fa-caret-down"></i>
+            </a>
+            <ul class="navbar-sublinks">
+                <li><a href="public/sections/products.html" class="navbar-sublink">Productos</a></li>
+                <li><a href="public/sections/chat.html" class="navbar-sublink">Chat</a></li>
+                <li><a href="public/sections/climate.html" class="navbar-sublink">Clima</a></li>
+                <li><a href="public/sections/news.html" class="navbar-sublink">Noticias</a></li>
+            </ul>
+        </li>
+        
+        <li><a href="#about" class="navbar-link">Sobre nosotros</a></li>
+        <li><a href="#contact" class="navbar-link">Contáctanos</a></li>
         </ul>
 
         <!-- Botón de unión en la barra de navegación -->
@@ -152,10 +159,9 @@
 
     <!-- SECCIÓN DE SERVICIOS -->
     <section id="services" class="services-container">
-
         <div class="content-services">
             <h2 class="title-services">Servicios</h2>
-
+            
             <div class="services-content">
                 <div class="card-service card-products">
                     <div class="triangle triangle-top"><i class="fa-solid fa-store"></i></div>
@@ -166,7 +172,7 @@
                         <a href="public/sections/products.html">Ver más<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
-
+    
                 <div class="card-service card-chat">
                     <div class="triangle triangle-top"><i class="fa-solid fa-comments"></i></div>
                     <div class="triangle triangle-bottom"><i class="fa-solid fa-comments"></i></div>
@@ -176,7 +182,7 @@
                         <a href="public/sections/chat.html">Ver más<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
-
+    
                 <div class="card-service card-climate">
                     <div class="triangle triangle-top"><i class="fa-solid fa-cloud-sun-rain"></i></div>
                     <div class="triangle triangle-bottom"><i class="fa-solid fa-cloud-sun-rain"></i></div>
@@ -186,7 +192,7 @@
                         <a href="public/sections/climate.html">Ver más<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
-
+    
                 <div class="card-service card-notices">
                     <div class="triangle triangle-top"><i class="fa-solid fa-newspaper"></i></div>
                     <div class="triangle triangle-bottom"><i class="fa-solid fa-newspaper"></i></div>
@@ -197,9 +203,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </section>
 
     <!-- SECCIÓN DE SOBRE NOSOTROS -->
@@ -237,8 +241,8 @@
                         <img src="public/assets/images/testimonials/testimonial1.jpg" alt="Testimonio 1">
                     </div>
                     <div class="carousel-text">
-                        <h3>María López</h3>
-                        <p>"EcoCrop me ha ayudado a identificar una plaga en mis tomates y a tomar medidas rápidas para controlarla. ¡Gracias por esta increíble aplicación!"</p>
+                        <h3>Yeira Huamán</h3>
+                        <p>"EcoCrop me ha ayudado a identificar una plaga en mis tomates y a tomar medidas rápidas para controlarla."</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -247,7 +251,7 @@
                     </div>
                     <div class="carousel-text">
                         <h3>José Ramírez</h3>
-                        <p>"Estoy muy impresionado con la precisión de EcoCrop para detectar plagas en mis cultivos. ¡Es una herramienta indispensable para cualquier agricultor!"</p>
+                        <p>"Estoy muy impresionado con la precisión de EcoCrop para detectar plagas en mis cultivos."</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -256,7 +260,7 @@
                     </div>
                     <div class="carousel-text">
                         <h3>Carlos Martínez</h3>
-                        <p>"Gracias a EcoCrop, he logrado aumentar la productividad de mis cultivos y reducir los costos de control de plagas. ¡Una herramienta indispensable para cualquier agricultor!"</p>
+                        <p>"Gracias a EcoCrop, he logrado aumentar la productividad de mis cultivos y reducir los costos de control de plagas."</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -343,25 +347,22 @@
     <!-- ALIANZAS CON ASOCIACIONES -->
     <section class="partners-container">
         <h2 class="partners-title">Nuestras Alianzas</h2>
-        <!-- Logos de las asociaciones -->
         <div class="partners-content">
             <div class="partners">
+                <!-- Imágenes originales -->
                 <img src="public/assets/images/partners/partner1.png" alt="Alianza 1">
-            </div>
-            <div class="partners">
                 <img src="public/assets/images/partners/partner2.png" alt="Alianza 2">
-            </div>
-            <div class="partners">
                 <img src="public/assets/images/partners/partner3.png" alt="Alianza 3">
-            </div>
-            <div class="partners">
                 <img src="public/assets/images/partners/partner4.png" alt="Alianza 4">
-            </div>
-            <div class="partners">
                 <img src="public/assets/images/partners/partner5.png" alt="Alianza 5">
-            </div>
-            <div class="partners">
                 <img src="public/assets/images/partners/partner6.png" alt="Alianza 6">
+                <!-- Duplicados (ocultos por defecto) -->
+                <img class="duplicate" src="public/assets/images/partners/partner1.png" alt="Alianza 1">
+                <img class="duplicate" src="public/assets/images/partners/partner2.png" alt="Alianza 2">
+                <img class="duplicate" src="public/assets/images/partners/partner3.png" alt="Alianza 3">
+                <img class="duplicate" src="public/assets/images/partners/partner4.png" alt="Alianza 4">
+                <img class="duplicate" src="public/assets/images/partners/partner5.png" alt="Alianza 5">
+                <img class="duplicate" src="public/assets/images/partners/partner6.png" alt="Alianza 6">
             </div>
         </div>
     </section>
@@ -371,7 +372,7 @@
         <div class="footer-container">
             <!-- 1ª Columna -->
             <div class="footer-column">
-                <img src="public/assets/images/logos/logo-app.png" alt="Logo Musify" class="footer-logo">
+                <img src="assets/images/logos/logo-app.png" alt="Logo Musify" class="footer-logo">
                 <p><a href="mailto:contacto@ecocrop.com?subject=Consulta&body=Hola,%tengo20%una20%consuklta."><i class="fa-solid fa-envelope" style="padding-right: 5px;"></i> contacto@ecocrop.com</a></p>
                 <p><a href="tel:978777386"><i class="fa-solid fa-phone" style="padding-right: 5px;"></i> +51 978 777 386</a></p>
             </div>
@@ -424,5 +425,6 @@
 </body>
 
     <script src="public/assets/scripts/index.js"></script>
+    <script src="public/assets/scripts/nav.js"></script>
 
 </html>

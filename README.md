@@ -1,32 +1,67 @@
-# EcoCrop - Landing Page Deployment
+# EcoCrop Landing Page
 
-Bienvenido al repositorio de despliegue de la Landing Page de **EcoCrop**, la innovadora aplicación de GreenSprout Innovations, desarrollada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC). Este repositorio está dedicado a almacenar y gestionar el despliegue de la landing page, que proporciona información detallada sobre nuestro producto y cómo ayuda a transformar la agricultura a través de la tecnología.
-
-## Descripción del Proyecto
-
-EcoCrop es una aplicación móvil diseñada para mejorar la producción agrícola mediante tecnología avanzada. Con funciones como identificación de plagas por imagen, guías prácticas para el manejo de plagas, y una red de conexión entre agricultores y especialistas, EcoCrop es una solución completa para optimizar la gestión de cultivos de forma efectiva y sostenible.
-
-La landing page de EcoCrop tiene el objetivo de ofrecer una vista previa de estas funcionalidades y conectar con nuestro público objetivo, que incluye agricultores, cooperativas agrícolas y empresas de insumos agrícolas.
+Bienvenido al repositorio de la **Landing Page** de nuestra aplicación **EcoCrop**, desarrollada por **GreenSprout Innovations**, un equipo de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC).
 
 ## Autores
 
-La landing page de EcoCrop fue desarrollada por los siguientes miembros de GreenSprout Innovations:
+* Jhosep Jamil Argomedo Camacho
+* Neil Aldrin Wilhelm Curipaco Huayllani
+* Sebastian Ramirez Tello
+* Jorge Luis Diaz Fiestas
+* Keyner Ivan Hancco Poma
+* Fabrizio Martin Panta Castro
 
-- Jhosep Jamil Argomedo Camacho
-- Neil Aldrin Wilhelm Curipaco Huayllani
-- Sebastian Ramirez Tello
-- Jorge Luis Diaz Fiestas
-- Keyner Ivan Hancco Poma
-- Fabrizio Martin Panta Castro
+## Descripción del Proyecto
 
-## Uso de este Repositorio
+**EcoCrop** es una innovadora aplicación móvil diseñada para transformar la agricultura a través de la tecnología. Nuestra misión es mejorar la calidad y cantidad de producción de las empresas agrícolas mediante soluciones digitales avanzadas. 
 
-Este repositorio es únicamente para fines de despliegue. Si deseas ver o colaborar en el código fuente de la landing page, puedes visitar nuestro repositorio principal [EcoCrop Landing Page](https://github.com/GreenSprout-Innovations/EcoCrop) donde se aloja el código de desarrollo.
+### Funcionalidades de EcoCrop
 
-## Objetivo de la Landing Page
+- **Identificación de Plagas**: Los agricultores pueden tomar imágenes de sus cultivos y EcoCrop utiliza procesamiento de imágenes para identificar automáticamente las plagas presentes.
+  
+- **Información Detallada**: La aplicación proporciona información exhaustiva sobre las plagas identificadas, incluyendo guías prácticas y medidas de control recomendadas.
 
-La landing page de EcoCrop está diseñada para:
+- **Actualizaciones en Tiempo Real**: Los usuarios reciben información actualizada sobre métodos efectivos de control de plagas.
 
-- Informar a los usuarios sobre los beneficios y funcionalidades de la aplicación EcoCrop.
-- Conectar a los usuarios con recursos adicionales y guías de uso.
-- Facilitar el contacto y la integración de nuevas tecnologías para el manejo de plagas en el sector agrícola.
+- **Red de Agricultores**: EcoCrop facilita la creación de una comunidad donde los agricultores pueden compartir experiencias y conocimientos.
+
+- **Contacto con Especialistas**: La aplicación conecta a los agricultores con empresas especializadas en el control de plagas para obtener apoyo adicional.
+
+### Objetivo
+
+EcoCrop promueve un uso eficiente y sostenible de los recursos agrícolas, ayudando a los agricultores a gestionar sus cultivos de manera más efectiva y responsable.
+
+## Segmentos objetivos
+### Agricultores
+Este segmento incluye a pequeños y medianos agricultores que buscan optimizar su producción agrícola mediante la utilización de tecnología avanzada para el control de plagas.
+
+**Características demográficas**
+- **Rango de edad:** 25 - 60 años
+- **Geografía:** Zonas rurales y periubanas en América Latina, con énfasis en áreas donde la agricultura es una actividad económica importante.
+
+### Cooperativas y asociaciones agrícolas
+Este segmento se refiere a organizaciones que agrupan a múltiples agricultores y están interesadas en adoptar tecnologías innovadoras para mejorar la eficiencia y sostenibilidad de sus operaciones.
+
+**Características demográficas**
+- **Tipo de organización:** Cooperativas agrícolas, asociaciones de agricultores.
+- **Localización:** América Latina, con un enfoque en regiones con un alto nivel de organización agrícola.
+
+### Empresas de insumos agrícolas
+Este grupo incluye a empresas que proveen productos y servicios para el control de plagas y que buscan integrar tecnología en sus ofertas para proporcionar soluciones más efectivas y sostenibles.
+
+**Características demográficas:**
+- **Tipo de empresa:** Proveedores de insumos agrícolas, especialmente aquellos enfocados en el control de plagas.
+- **Localización:** América Latina, con presencia en mercados agrícolas emergentes.
+
+## Tecnologías Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Licencia
+Este proyecto está bajo la [Licencia Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+---
+
+¡Gracias por visitar el repositorio de EcoCrop! Juntos, podemos hacer una diferencia en la agricultura.
