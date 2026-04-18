@@ -340,28 +340,72 @@
     <!-- SECCIÓN DE CONTACTO -->
     <section id="contact" class="contact-container">
         <h2 class="title-contact">Contáctanos</h2>
+        <p class="contact-subtitle">Estamos aquí para ayudarte. Contáctanos por cualquier consulta.</p>
         <div class="content-contact">
-            <div class="form-contact-container">
-                <span class="form-contact-title">Enviar un mensaje</span>
-                <form class="form">
-                    <div class="group">
-                        <input placeholder="" type="text" required="">
-                        <label for="name">Nombre</label>
+            <div class="contact-info-cards">
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fa-solid fa-phone"></i>
                     </div>
-                    <div class="group">
-                        <input placeholder="" type="email" id="email" name="email" required="">
-                        <label for="email">Email</label>
+                    <div class="contact-card-content">
+                        <h3>Teléfono</h3>
+                        <p>+51 978 777 386</p>
                     </div>
-                    <div class="group">
-                        <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
-                        <label for="comment">Mensaje</label>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fa-solid fa-envelope"></i>
                     </div>
-                    <button type="submit">Enviar</button>
-                </form>
+                    <div class="contact-card-content">
+                        <h3>Email</h3>
+                        <p>contacto@ecocrop.com</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-card-content">
+                        <h3>Ubicación</h3>
+                        <p>Huancayo, Junín, Perú</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div class="contact-card-content">
+                        <h3>Horario</h3>
+                        <p>Lun - Vie: 8am - 6pm</p>
+                    </div>
+                </div>
             </div>
-            <div class="image-contact">
-                <img src="public/assets/images/contact/contact.png" alt="Contacto">
-            </div>    
+            <div class="form-and-image-wrapper">
+                <div class="form-contact-container">
+                    <span class="form-contact-title">Enviar un mensaje</span>
+                    <form class="form">
+                        <div class="group">
+                            <input placeholder="" type="text" required="">
+                            <label for="name">Nombre</label>
+                        </div>
+                        <div class="group">
+                            <input placeholder="" type="email" id="email" name="email" required="">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="group">
+                            <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+                            <label for="comment">Mensaje</label>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span>Enviar mensaje</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="image-contact">
+                    <img src="public/assets/images/contact/contact.png" alt="Contacto">
+                </div>    
+            </div>
         </div>
     </section>
 
