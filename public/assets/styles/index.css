@@ -235,14 +235,12 @@ SECCIÓN
     }
 }
 
-    .start-link::after{
-        display: none !important;
-    }
+.start-link::after{
+    display: none !important;
+}
 
-    .home-image {
-        display: none;
-    }
-
+.home-image {
+    display: none;
 }
 
 /* Estilos adicionales para dispositivos muy pequeños */
