@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="public/assets/styles/components/navbar.css"> <!-- Estilos de la barra de navegación -->
     <link rel="stylesheet" href="public/assets/styles/components/start-link.css"> <!-- Estilos de los enlaces de "Obtener app" -->
     <link rel="stylesheet" href="public/assets/styles/components/footer-section.css"> <!-- Estilos del pie de página -->
+    <link rel="stylesheet" href="public/assets/styles/components/author-modal.css"> <!-- Estilos del modal de autor -->
     
     <!-- Font Awesome para iconos -->
     <script src="https://kit.fontawesome.com/63a734d1c2.js" crossorigin="anonymous" defer></script>
@@ -422,9 +423,60 @@
         </div>
     </footer>
 
+    <!-- Modal de Autor -->
+    <div class="modal-overlay" id="authorModal">
+        <div class="author-modal">
+            <button class="author-modal-close" onclick="closeAuthorModal()">&times;</button>
+            <img src="public/assets/images/github/github-profile.png" alt="Foto de perfil" class="author-profile-image">
+            <p class="author-label">Creado por:</p>
+            <h3 class="author-name">Jhosep Argomedo</h3>
+            <div class="author-buttons">
+                <a href="https://github.com/JhosepAC" target="_blank" class="author-btn author-btn-github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:jhosepjamil@gmail.com" class="author-btn author-btn-gmail">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/51978777386" target="_blank" class="author-btn author-btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bubble Flotante -->
+    <div class="author-float-bubble" id="authorFloatBubble" onclick="openAuthorModal()">
+        <img src="public/assets/images/github/github-profile.png" alt="Autor">
+    </div>
+
 </body>
 
     <script src="public/assets/scripts/index.js"></script>
+    <script>
+        function openAuthorModal() {
+            document.getElementById('authorModal').classList.add('active');
+        }
+        
+        function closeAuthorModal() {
+            document.getElementById('authorModal').classList.remove('active');
+        }
+        
+        document.getElementById('authorModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeAuthorModal();
+            }
+        });
+        
+        window.onload = function() {
+            if (!localStorage.getItem('authorModalShown')) {
+                setTimeout(openAuthorModal, 500);
+                localStorage.setItem('authorModalShown', 'true');
+                document.getElementById('authorFloatBubble').classList.add('active');
+            } else {
+                document.getElementById('authorFloatBubble').classList.add('active');
+            }
+        };
+    </script>
     <script src="public/assets/scripts/nav.js"></script>
 
 </html>
